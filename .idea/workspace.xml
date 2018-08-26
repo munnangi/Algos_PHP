@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b82f41-1995-4701-9f2d-cced017a7424" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/doublelinkedlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/doublelinkedlist.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queues.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/queues.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,12 +39,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="34" />
-          <entry key="php" value="12360" />
+          <entry key="php" value="12361" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="12360" />
+          <entry key="PHP" value="12361" />
           <entry key="PLAIN_TEXT" value="34" />
         </counts>
       </usages-collector>
@@ -104,7 +103,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/doublelinkedlist.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -140,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/queues.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="1080">
+              <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -199,7 +198,6 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/removedupeslinkedlist.php" />
         <option value="$PROJECT_DIR$/src/linkedlist.php" />
-        <option value="$PROJECT_DIR$/src/queues.php" />
         <option value="$PROJECT_DIR$/src/QueueUsingStacks.php" />
         <option value="$PROJECT_DIR$/src/index.php" />
         <option value="$PROJECT_DIR$/src/queueusingstacks.php" />
@@ -207,6 +205,7 @@
         <option value="$PROJECT_DIR$/src/stacks.php" />
         <option value="$PROJECT_DIR$/src/linkedlistproblems.php" />
         <option value="$PROJECT_DIR$/src/doublelinkedlist.php" />
+        <option value="$PROJECT_DIR$/src/queues.php" />
       </list>
     </option>
   </component>
@@ -356,12 +355,12 @@
       <workItem from="1533872503568" duration="83000" />
       <workItem from="1533872712717" duration="197000" />
       <workItem from="1533872935417" duration="34000" />
-      <workItem from="1533872996348" duration="50220000" />
+      <workItem from="1533872996348" duration="50559000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95041000" />
+    <option name="totallyTimeSpent" value="95380000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -510,13 +509,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/queues.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedlistproblems.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="574">
@@ -545,6 +537,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
           <caret line="93" column="18" lean-forward="true" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/queues.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="60" column="1" lean-forward="true" selection-start-line="60" selection-start-column="1" selection-end-line="60" selection-end-column="1" />
         </state>
       </provider>
     </entry>

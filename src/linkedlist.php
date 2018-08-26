@@ -56,9 +56,7 @@ class LinkedList
             $nodePrevious = $node;
             $node = $node->next;
         }
-
         echo 'no value found' . '</br>';
-
     }
 
     /**
@@ -92,5 +90,3 @@ class LlNode
         $this->next = null;
     }
 }
-
-

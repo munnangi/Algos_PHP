@@ -12,7 +12,6 @@ class Queues
     public function __construct()
     {
         $this->queueData = [];
-
     }
 
     /**
@@ -38,7 +37,6 @@ class Queues
             echo 'the queue is empty';
             return;
         }
-
        echo  array_shift($this->queueData) . '<br/>';
     }
 
@@ -50,6 +48,7 @@ class Queues
         echo '<pre/>';
         print_r($this->queueData);
     }
+
     /**
      * Check if the queue is empty
      *

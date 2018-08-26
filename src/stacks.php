@@ -30,7 +30,6 @@ class Stacks
     public function __construct($limit)
     {
         $this->limit = $limit;
-
     }
 
     /**
