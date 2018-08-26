@@ -1,1 +1,1 @@
-Implement Algorithms and Data Structures in PHP.
+Implement Algorithms and Data Structures in PHP 7.0.
