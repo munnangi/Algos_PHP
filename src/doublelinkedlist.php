@@ -85,6 +85,10 @@ class DoubleLinkedList
 
 }
 
+/**
+ * Class DllNode
+ * @package Algos
+ */
 class DllNode
 {
     public $value;

@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73b82f41-1995-4701-9f2d-cced017a7424" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/linkedlist.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queues.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queueusingsplqueue.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stacks.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/stackusingsplstack.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/autoload.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/ClassLoader.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_classmap.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_namespaces.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_real.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/autoload_static.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vendor/composer/installed.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/doublelinkedlist.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/doublelinkedlist.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -55,12 +40,12 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="34" />
-          <entry key="php" value="12355" />
+          <entry key="php" value="12360" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="12355" />
+          <entry key="PHP" value="12360" />
           <entry key="PLAIN_TEXT" value="34" />
         </counts>
       </usages-collector>
@@ -122,8 +107,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/doublelinkedlist.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="80" column="42" lean-forward="true" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+            <state relative-caret-position="304">
+              <caret line="93" column="18" lean-forward="true" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -212,7 +197,6 @@
         <option value="$PROJECT_DIR$/src/queueusingsplqueue.php" />
         <option value="$PROJECT_DIR$/vendor/composer/autoload_psr4.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/src/doublelinkedlist.php" />
         <option value="$PROJECT_DIR$/src/removedupeslinkedlist.php" />
         <option value="$PROJECT_DIR$/src/linkedlist.php" />
         <option value="$PROJECT_DIR$/src/queues.php" />
@@ -222,6 +206,7 @@
         <option value="$PROJECT_DIR$/src/stackusingsplstack.php" />
         <option value="$PROJECT_DIR$/src/stacks.php" />
         <option value="$PROJECT_DIR$/src/linkedlistproblems.php" />
+        <option value="$PROJECT_DIR$/src/doublelinkedlist.php" />
       </list>
     </option>
   </component>
@@ -371,12 +356,12 @@
       <workItem from="1533872503568" duration="83000" />
       <workItem from="1533872712717" duration="197000" />
       <workItem from="1533872935417" duration="34000" />
-      <workItem from="1533872996348" duration="48902000" />
+      <workItem from="1533872996348" duration="50220000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93723000" />
+    <option name="totallyTimeSpent" value="95041000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -404,7 +389,7 @@
       <window_info anchor="bottom" id="TODO" order="7" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32998565" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32908458" />
-      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -558,8 +543,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/doublelinkedlist.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="80" column="42" lean-forward="true" selection-start-line="80" selection-start-column="42" selection-end-line="80" selection-end-column="42" />
+        <state relative-caret-position="304">
+          <caret line="93" column="18" lean-forward="true" selection-start-line="93" selection-start-column="18" selection-end-line="93" selection-end-column="18" />
         </state>
       </provider>
     </entry>
