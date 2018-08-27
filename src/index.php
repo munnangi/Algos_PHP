@@ -10,6 +10,8 @@ use Algos\StackUsingSplStack;
 use Algos\Stacks;
 use Algos\DoubleLinkedList;
 use Algos\LinkedListProblems;
+use Algos\Trees;
+use Algos\TreeNode;
 
 /*
 echo 'Linked List ----' . '<br/>';
@@ -118,7 +120,7 @@ $smallestItemsOnTop->smallestItemsOnTop(4);
 $smallestItemsOnTop->smallestItemsOnTop(7);
 $smallestItemsOnTop->printSmallestItemsOnTop();*/
 
-echo 'implement queue using 2 stacks' . '</br>';
+/*echo 'implement queue using 2 stacks' . '</br>';
 
 $queueUsingStack = new QueueUsingStacks();
 $queueUsingStack->queueUsingStacks(4, 'enqueue');
@@ -134,6 +136,45 @@ $queueUsingStack->queueUsingStacks(null, 'dequeue');
 $queueUsingStack->queueUsingStacks(null, 'dequeue');
 $queueUsingStack->queueUsingStacks(null, 'dequeue');
 $queueUsingStack->queueUsingStacks(null, 'dequeue');
-$queueUsingStack->queueUsingStacks(null, 'dequeue');
+$queueUsingStack->queueUsingStacks(null, 'dequeue');*/
 
 
+/*echo 'tree traversal' . '</br></br>';
+
+$treeNode = new TreeNode(7);
+$treeNode->leftChild = new TreeNode(5);
+$treeNode->rightChild = new TreeNode(9);
+$treeNode->leftChild->leftChild = new TreeNode(4);
+$treeNode->leftChild->rightChild = new TreeNode(6);
+$treeNode->rightChild->leftChild = new TreeNode(8);
+$treeNode->rightChild->rightChild = new TreeNode(10);
+$trees = new Trees(null, $treeNode);
+$trees->traverseTree('inOrder');
+$trees->traverseTree('preOrder');
+$trees->traverseTree('postOrder');*/
+
+/*echo 'Binary search tree from sorted array' . '</br></br>';
+
+$bstSortedArray = new Trees();
+$rootNode = $bstSortedArray->BstFromArray([1,2,3,4,5,6,7,8,9], 0, 8);
+$bstSortedArray->setTreeNode($rootNode);
+$bstSortedArray->traverseTree('inOrder');*/
+
+echo 'check if binary tree is balanced' . '</br></br>';
+
+/*$treeNode = new TreeNode(7);
+$treeNode->leftChild = new TreeNode(5);
+$treeNode->rightChild = new TreeNode(9);
+$treeNode->leftChild->leftChild = new TreeNode(3);
+$treeNode->leftChild->leftChild->rightChild = new TreeNode(6);
+$treeNode->leftChild->leftChild->rightChild->rightChild = new TreeNode(8);*/
+$treeNode = new TreeNode(7);
+$treeNode->leftChild = new TreeNode(5);
+$treeNode->rightChild = new TreeNode(9);
+$treeNode->leftChild->leftChild = new TreeNode(4);
+$treeNode->leftChild->rightChild = new TreeNode(6);
+$treeNode->rightChild->leftChild = new TreeNode(8);
+$treeNode->rightChild->rightChild = new TreeNode(10);
+$bstBalanced = new Trees();
+$result = $bstBalanced->checkBTisBalanced($treeNode);
+echo $result;
